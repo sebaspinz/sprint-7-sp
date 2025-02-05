@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import nbformat
 
 #car_data = pd.read_csv(r"C:\Users\poveds3\TRIPLETEN\Proyectos-git\Sprint-7\vehicles_us.csv") # leer los datos
 car_data = pd.read_csv("vehicles_us.csv")
