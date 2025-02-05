@@ -28,11 +28,4 @@ if scatter_button: # al hacer clic en el botón
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
     fig.show()
-
-# Score del usuario hacia la pagina y comentarios
-score= st.feedback(options="faces")
-if score is not None:
-    if score <= 1:
-        st.write('Dejanos tu feedback sobre la app web.')
-        feedback_input= st.text_input("Feedback:","")
-        st.write('Gracias por tu tiempo')
+    
